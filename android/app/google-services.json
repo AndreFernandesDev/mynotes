@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138221435738",
+    "project_id": "mynotes-pinhasdev",
+    "storage_bucket": "mynotes-pinhasdev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138221435738:android:9305dc6143e37b56f7d163",
+        "android_client_info": {
+          "package_name": "pt.foodbus.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138221435738-b1lfgku0nmmm4q6mlgn4eihuq5cl0fc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgbOdSqTMyTOhdjFSWH7KCx0mi8quwDjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138221435738-b1lfgku0nmmm4q6mlgn4eihuq5cl0fc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

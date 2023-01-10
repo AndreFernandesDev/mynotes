@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>138221435738-g0fc5b3f937v7pe0kl1t9sfm5i34esnf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.138221435738-g0fc5b3f937v7pe0kl1t9sfm5i34esnf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyApruyIMavJrDaaYMdPgSZ0XVlhTs430Ck</string>
+	<key>GCM_SENDER_ID</key>
+	<string>138221435738</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>pt.foodbus.mynotes</string>
+	<key>PROJECT_ID</key>
+	<string>mynotes-pinhasdev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mynotes-pinhasdev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:138221435738:ios:dd1cc8493d45d1a5f7d163</string>
+</dict>
+</plist>

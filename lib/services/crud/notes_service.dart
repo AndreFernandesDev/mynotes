@@ -11,11 +11,16 @@ class NotesService {
 
   List<DatabaseNote> _notes = [];
 
-  final _notesStreamController =
-      StreamController<List<DatabaseNote>>.broadcast();
+  late final StreamController<List<DatabaseNote>> _notesStreamController;
 
   static final NotesService _shared = NotesService._sharedInstance();
-  NotesService._sharedInstance();
+  NotesService._sharedInstance() {
+    _notesStreamController = StreamController<List<DatabaseNote>>.broadcast(
+      onListen: () {
+        _notesStreamController.sink.add(_notes);
+      },
+    );
+  }
   factory NotesService() => _shared;
 
   Stream<List<DatabaseNote>> get allNotes => _notesStreamController.stream;
@@ -313,6 +318,7 @@ const createUserTable = '''CREATE TABLE IF NOT EXISTS "user" (
 const createNoteTable = '''CREATE TABLE IF NOT EXISTS "note" (
         "id"	INTEGER NOT NULL,
         "user_id"	INTEGER NOT NULL,
+        "is_synced_with_cloud"	INTEGER NOT NULL,
         "text"	TEXT,
         FOREIGN KEY("user_id") REFERENCES "user"("id"),
         PRIMARY KEY("id" AUTOINCREMENT)
